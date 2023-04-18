@@ -17,7 +17,7 @@ function OmegaMenu(props) {
 		enableCompanyTags: true,
 		enableProblemTimer: false,
 
-		isMenuOpen: props.isMenuOpen,
+		isMenuOpen: !props.isMenuOpen,
 		menuOptions: [
 			{ name: "Company Tags", enabled: true }
 			//{ name: "Code Analyser", enabled: false } // Future feature
